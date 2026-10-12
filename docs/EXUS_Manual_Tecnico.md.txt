@@ -1,0 +1,24 @@
+# NEXUS — Manual Técnico y Preparación para el Examen H3
+
+---
+
+## I. Arquitectura y Programación Orientada a Objetos
+
+### Propósito y funcionamiento general de NEXUS
+NEXUS es una solución de simulación interactiva desarrollada en C# (.NET). El sistema actúa como una consola de control e inmersión para cadetes y exploradores. Permite validar credenciales de acceso, gestionar el inventario de equipamiento mediante vectores, procesar telemetría de radiación ambiental, navegar interactivamente por una cartografía 2D en tiempo real con detección de colisiones, y ejecutar diagnósticos continuos del estado de subsistemas y energía del operador.
+
+El archivo `Program.cs` engloba el flujo principal estructurado en misiones iterativas gestionadas mediante una consola interactiva.
+
+---
+
+### Estructura del proyecto y responsabilidades de sus clases
+En su versión actual, la solución se organiza dentro del namespace `NexusUniverso`:
+
+```text
+NEXUS/
+│
+├── NEXUS.slnx
+├── Program.cs             (Misiones 01 a 05 - Flujo procedural)
+│
+└── Docs/
+    └── NEXUS_Manual_Tecnico.md
